@@ -9,7 +9,7 @@ services:
     volumes:
       - ./volume:/var/opt/mssql/data
     ports:
-      - "2500:1433"
+      - "2433:1433"
     environment:
       SA_PASSWORD: "your_secret"
       ACCEPT_EULA: "Y"
